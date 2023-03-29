@@ -1,12 +1,12 @@
 # API_KEY = "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" 此key无效
-API_KEY = "sk-此处填API秘钥"
+API_KEY = "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"
 API_URL = "https://api.openai.com/v1/chat/completions"
 
 # 改为True应用代理
-USE_PROXY = False
+USE_PROXY = True
 if USE_PROXY:
     # 代理网络的地址，打开你的科学上网软件查看代理的协议(socks5/http)、地址(localhost)和端口(11284)
-    proxies = { "http": "socks5h://localhost:11284", "https": "socks5h://localhost:11284", } 
+    proxies = { "http":"socks5h://localhost:7890", "https": "socks5h://localhost:7890", }
     print('网络代理状态：运行。')
 else:
     proxies = None

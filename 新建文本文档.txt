@@ -1,0 +1,9 @@
+conda activate chatgpt
+python main.py
+
+python -m pip install -r requirements.txt
+conda create -n chatgpt python=3.11.0
+
+请用IEEE Transactions on Industrial Electronics杂志风格的语言润色成学术论文形式
+
+请用IEEE Transactions on Industrial Electronics杂志风格的语言将以下句子润色成学术论文形式：
